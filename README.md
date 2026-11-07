@@ -50,3 +50,4 @@ The locked bootloader only boots it when `vbmeta` chains `recovery` to `testkey_
 - [TWRP-Test](https://github.com/TWRP-Test): `twrp-16.0` manifest and sources
 - [YuKongA](https://github.com/YuKongA): TWRP-Test, the recovery VINTF manifest approach
 - [polygraphene](https://github.com/polygraphene): TB321FU device trees, which this tree is based on
+- [Noto Sans CJK](https://github.com/notofonts/noto-cjk): Chinese, Japanese and Korean font, [SIL Open Font License 1.1](https://openfontlicense.org)
