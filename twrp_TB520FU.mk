@@ -7,13 +7,13 @@
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from lapis device
-$(call inherit-product, device/lenovo/lapis/device.mk)
+# Inherit from TB520FU device
+$(call inherit-product, device/lenovo/TB520FU/device.mk)
 
-PRODUCT_DEVICE := lapis
-PRODUCT_NAME := twrp_lapis
+PRODUCT_DEVICE := TB520FU
+PRODUCT_NAME := twrp_TB520FU
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := TB520FU
-PRODUCT_MANUFACTURER := lenovo
+PRODUCT_MANUFACTURER := LENOVO
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo

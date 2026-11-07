@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_lapis.mk
+    $(LOCAL_DIR)/twrp_TB520FU.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_lapis-bp2a-eng
+    twrp_TB520FU-bp2a-eng

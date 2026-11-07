@@ -1,8 +1,8 @@
-# TWRP device tree for Lenovo Yoga Tab Plus (lapis)
+# TWRP device tree for Lenovo Yoga Tab Plus (TB520FU)
 
-| Codename | Device |
-| -------- | ------ |
-| lapis | Lenovo Yoga Tab Plus / Yoga Pad Pro (TB520FU), SM8650 |
+| Device | Model |
+| ------ | ----- |
+| TB520FU | Lenovo Yoga Tab Plus / Yoga Pad Pro (lapis), SM8650 |
 
 Based on ZUI 17.5.10.362 (Android 16). Landscape theme.
 
@@ -22,7 +22,7 @@ Based on ZUI 17.5.10.362 (Android 16). Landscape theme.
 ## Build it yourself
 
 - [TWRP-Test/platform_manifest_twrp_aosp](https://github.com/TWRP-Test/platform_manifest_twrp_aosp) (`twrp-16.0`)
-- `.repo/local_manifests/lapis.xml`:
+- `.repo/local_manifests/TB520FU.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -31,14 +31,14 @@ Based on ZUI 17.5.10.362 (Android 16). Landscape theme.
 
   <remove-project name="android_bootable_recovery" />
 
-  <project name="android_device_lenovo_lapis-twrp" path="device/lenovo/lapis" remote="lenovo-sm8650" revision="twrp-16.0" />
+  <project name="android_device_lenovo_TB520FU-twrp" path="device/lenovo/TB520FU" remote="lenovo-sm8650" revision="twrp-16.0" />
   <project name="android_bootable_recovery" path="bootable/recovery" remote="lenovo-sm8650" revision="android-16.0" />
 </manifest>
 ```
 
 ```bash
 source build/envsetup.sh
-lunch twrp_lapis-bp2a-eng
+lunch twrp_TB520FU-bp2a-eng
 mka recoveryimage
 ```
 
